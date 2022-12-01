@@ -199,6 +199,7 @@ body {
 @media screen and (max-width: 900px) {
     .timeline ul li div {
         width: 250px;
+        font-size: 10px;
         flex-direction: column;
     }
 
@@ -484,11 +485,10 @@ ul {
     padding-left: 15px
 }
 
-.our-services {
+.course {
     margin-top: 75px;
     padding-bottom: 30px;
-    padding: 0 60px;
-    min-height: 198px;
+    min-height: 170px;
     text-align: center;
     border-radius: 10px;
     background-color: #fff;
@@ -496,14 +496,14 @@ ul {
     box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
 }
 
-.our-services .icon {
+.course .icon {
     margin-bottom: -21px;
     transform: translateY(-50%);
     text-align: center
 }
 
-.our-services:hover h4,
-.our-services:hover p {
+.course:hover h4,
+.course:hover p {
     color: #fff
 }
 
@@ -606,7 +606,7 @@ ul {
 }
 
 .card-header.six {
-    background: linear-gradient(to bottom left, var(--bs-pink), var(--bs-dark));
+    background: linear-gradient(to bottom left, var(--bs-pink), burlywood);
 }
 
 .n {
